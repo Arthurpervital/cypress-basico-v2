@@ -148,12 +148,4 @@ describe('Central de Atendimento ao Cliente TAT', () =>{
 
   })
 
-  it.only('testa a página da política de privacidade de forma independente' , () =>{
-    cy.contains('a', 'Política de Privacidade')
-    cy.click()
-
-
-  })
-
-
 })
